@@ -5,6 +5,7 @@
 2. Merge K Arrays
 3. Find duplicates
 4. Anagrams
+5. Seek and Destroy
 
 ## String Problems
 1. Palindrome Checker
