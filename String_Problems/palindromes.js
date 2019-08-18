@@ -8,4 +8,4 @@ function palindrome(str) {
     orig = orig.split('');
     let reverse = [...orig].reverse();
     return reverse.join('') === orig.join('');
-  };
+  }

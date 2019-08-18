@@ -20,7 +20,7 @@ function destroyer(arr) {
   
     for (let i of firstArr){
     if (med.indexOf(i) < 0){
-      finalArr.push(i)
+      finalArr.push(i);
     }
     }
   return finalArr;

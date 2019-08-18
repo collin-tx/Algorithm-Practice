@@ -26,7 +26,7 @@ const dups = (arr) => {
     // filter out duplicates from new array
    newArr = newArr.filter(num => {
        return toRemove.indexOf(num) === -1;
-   })
+   });
 
    return newArr;
-}
+};

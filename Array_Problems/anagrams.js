@@ -22,4 +22,4 @@ const isAnagram = (target, test) => {
     target = target.sort(sorter).join('');
 
     return target == test;
-}
+};
