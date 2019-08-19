@@ -9,3 +9,6 @@
 
 ## String Problems
 1. Palindrome Checker
+
+## Number Problems
+1. FizzBuzz
