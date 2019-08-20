@@ -12,3 +12,5 @@
 
 ## Number Problems
 1. FizzBuzz
+2. Swap Variables
+3. Factorialize a number
