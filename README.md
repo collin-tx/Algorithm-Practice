@@ -15,6 +15,7 @@
 1. Palindrome Checker
 2. Truncate a String
 3. Title Case a Sentence
+4. Spinal Case
 
 ## Number Problems
 1. FizzBuzz
