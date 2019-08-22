@@ -9,6 +9,7 @@
 6. Find the largest number in each of n arrays
 7. Where do I belong? Finding proper index of n
 8. Chunking Arrays into Multi-dimensional Arrays
+9. Symmetric Difference between arrays
 
 ## String Problems
 1. Palindrome Checker
