@@ -8,6 +8,7 @@
 5. Seek and Destroy
 6. Find the largest number in each of n arrays
 7. Where do I belong? Finding proper index of n
+8. Chunking Arrays into Multi-dimensional Arrays
 
 ## String Problems
 1. Palindrome Checker
