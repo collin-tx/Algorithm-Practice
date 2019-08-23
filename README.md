@@ -21,3 +21,4 @@
 1. FizzBuzz
 2. Swap Variables
 3. Factorialize a number
+4. Sum of Primes in a Range
