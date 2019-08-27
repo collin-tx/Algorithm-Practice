@@ -29,6 +29,5 @@ sumSquareDifference = (n) => {
     let sqArr = [findSquareOfSum(n), findSumOfSquares(n)];
     if (sqArr[0] === sqArr[1]) return 0;
     return Math.max(...sqArr) - Math.min(...sqArr);
-    }
+}
     
-    console.log(sumSquareDifference(10));
