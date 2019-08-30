@@ -24,3 +24,4 @@
 3. Factorialize a number
 4. Sum of Primes in a Range
 5. Sum Square Difference
+6. Find PI to nth digit
