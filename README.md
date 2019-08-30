@@ -25,3 +25,4 @@
 4. Sum of Primes in a Range
 5. Sum Square Difference
 6. Find PI to nth digit
+7. Perfect Powers of n?
