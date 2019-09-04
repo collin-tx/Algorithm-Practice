@@ -26,3 +26,4 @@
 5. Sum Square Difference
 6. Find PI to nth digit
 7. Perfect Powers of n?
+8. Largest Palindrome Product
