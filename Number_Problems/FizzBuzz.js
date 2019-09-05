@@ -2,9 +2,10 @@
 //prints 1-100 but fizz buzz for numbers divisible by 3 and 5
 //fizz for numbers divisible by 3 and buzz for 5s
 
-
-for (let i=1; i<=100; i++){
-  if (i % 3 === 0 && i % 5 === 0){
+const printFizzBuzz = (num) => {
+for (let i=1; i<=num; i++){
+    //lowest common multiple 
+  if (i % 15 === 0){
     console.log('FizzBuzz');
     continue;
   } else if (i % 3 === 0){
@@ -16,3 +17,7 @@ for (let i=1; i<=100; i++){
   } 
   console.log(i);
 }
+}
+
+
+printFizzBuzz(100);
