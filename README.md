@@ -17,6 +17,7 @@
 2. Truncate a String
 3. Title Case a Sentence
 4. Spinal Case
+5. Vowel Count
 
 ## Number Problems
 1. FizzBuzz
