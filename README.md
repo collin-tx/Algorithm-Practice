@@ -29,3 +29,4 @@
 6. Find PI to nth digit
 7. Perfect Powers of n?
 8. Largest Palindrome Product
+9. Mean, Median and Mode of an Array
