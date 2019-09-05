@@ -18,6 +18,7 @@
 3. Title Case a Sentence
 4. Spinal Case
 5. Vowel Count
+6. Ransom Note
 
 ## Number Problems
 1. FizzBuzz
