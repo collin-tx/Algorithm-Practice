@@ -30,3 +30,4 @@
 7. Perfect Powers of n?
 8. Largest Palindrome Product
 9. Mean, Median and Mode of an Array
+10. Two Pairs that add to Sum
