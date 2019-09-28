@@ -3,9 +3,8 @@
 // ignoring case and nonalphanumberic characters
 // eg. palindrome('_race|car') == true
 
-function palindrome(str) {
-    let orig = str.replace(/\W+|_/g, '').toLowerCase();
-    orig = orig.split('');
-    let reverse = [...orig].reverse();
-    return reverse.join('') === orig.join('');
-  }
+const palindrome = str => {
+  let original = str.replace(/\W+|_/g, '').toLowerCase().split('');
+  let reversed = [...original].reverse();
+  return original.join('') === reversed.join('');
+}
