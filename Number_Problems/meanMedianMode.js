@@ -56,5 +56,5 @@ class Statistics {
     }
 }
 
-const mathy = new Statistics([110, 3, 40, 8, 6, 2, 5, 6, 420, 420, 7, 7, 7, 798, 4000, 420, 14, 56, 88888]);
-console.log(mathy.getMode(), mathy.getMean(), mathy.getMedian());
+// const doMath = new Statistics([5, 5, 5, 5, 5, 5, 10, 10, 10, 10]);
+// console.log(doMath.getMode(), doMath.getMean(), doMath.getMedian());
