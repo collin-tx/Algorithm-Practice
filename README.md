@@ -19,6 +19,7 @@
 4. Spinal Case
 5. Vowel Count
 6. Ransom Note
+7. Simple Symbol Evaluations
 
 ## Number Problems
 1. FizzBuzz
