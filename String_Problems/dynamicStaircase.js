@@ -15,12 +15,10 @@ const staircase = n => {
     for(let i=1; i<n; i++){
         stair.unshift(' ');
     }
-    
+
     for (let i=1; i<=n; i++){
         console.log(stair.join(''));
         stair.shift();
         stair.push('#');
     }
-}
-
-staircase(20)
+};
