@@ -21,6 +21,7 @@
 6. Ransom Note
 7. Simple Symbol Evaluations
 8. Dynamic Staircase
+9. Time Conversion
 
 ## Number Problems
 1. FizzBuzz
