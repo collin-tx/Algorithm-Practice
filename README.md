@@ -20,6 +20,7 @@
 5. Vowel Count
 6. Ransom Note
 7. Simple Symbol Evaluations
+8. Dynamic Staircase
 
 ## Number Problems
 1. FizzBuzz
