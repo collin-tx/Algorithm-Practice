@@ -12,7 +12,7 @@
 const staircase = n => {
     let stair = ['#'];
 
-    for(let i=1; i<n; i++){
+    for (let i=1; i<n; i++){
         stair.unshift(' ');
     }
 

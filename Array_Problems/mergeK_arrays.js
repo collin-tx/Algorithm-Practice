@@ -7,11 +7,11 @@
 const merge = (arr) => {
     let masterArr = [];
 
-   for (let k of arr){
+    for (let k of arr){
        masterArr.push(...k);
-   }
+    }
 
-   masterArr.sort( (a, b) => a - b);
+    masterArr.sort((a, b) => a - b);
 
     return masterArr;
 }

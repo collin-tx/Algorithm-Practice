@@ -8,9 +8,9 @@
 
 flattenAndSort = array => {
  
-    flattenArr = array => {
-      const flattenedArr = [].concat(...array);
-      return flattenedArr.some(Array.isArray) ? flattenArr(flattenedArr) : flattenedArr;
+  flattenArr = array => {
+    const flattenedArr = [].concat(...array);
+    return flattenedArr.some(Array.isArray) ? flattenArr(flattenedArr) : flattenedArr;
   }
 
   return flattenArr(array).sort( (a,b) => a - b);

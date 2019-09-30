@@ -4,7 +4,7 @@
 // e.g. indexOfNum([1, 3, 7, 5], 2) = 1;
 
 const indexOfNum = (arr, num) => {
-    let sorted = arr.sort( (a,b) => a-b);
+    let sorted = arr.sort((a,b) => a-b);
   
     for(let n of sorted){
       if (n > num || n === num){
