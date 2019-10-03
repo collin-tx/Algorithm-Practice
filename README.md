@@ -12,6 +12,7 @@
 9. Symmetric Difference between arrays
 10. Flatten and Sort Nested Arrays
 11. Find Pairs
+12. Rotating Arrays
 
 ## String Problems
 1. Palindrome Checker
