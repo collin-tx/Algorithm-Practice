@@ -11,6 +11,7 @@
 8. Chunking Arrays into Multi-dimensional Arrays
 9. Symmetric Difference between arrays
 10. Flatten and Sort Nested Arrays
+11. Find Pairs
 
 ## String Problems
 1. Palindrome Checker
