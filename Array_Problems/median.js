@@ -13,8 +13,7 @@ const median = (arr1, arr2) => {
     // concat arrays together
     const masterArr = [...arr1, ...arr2];
     // sort concatted array
-    masterArr.sort( (a ,b) => a - b);
-    console.log(masterArr);
+    masterArr.sort((a ,b) => a - b);
     //get length of master 
     const length = masterArr.length;
 
@@ -25,7 +24,6 @@ const median = (arr1, arr2) => {
         //if array has even items, return average of two closest to middle
         const lower = masterArr[length / 2];
         const upper = masterArr[(length / 2) + 1];
-
         return (lower + upper) / 2;
     }
 }

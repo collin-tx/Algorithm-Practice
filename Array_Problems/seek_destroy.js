@@ -7,6 +7,12 @@
 //create new array to hold numbers not included in extra-array arguments
 
 
+
+//reworked solution into one line
+const destroyer2 = (arr, ...targets) => arr.filter(n => !targets.includes(n));
+
+
+// original solution
 function destroyer(arr) {
     let newArr = arguments;
     let firstArr = [...arguments[0]];
@@ -24,5 +30,4 @@ function destroyer(arr) {
     }
     }
   return finalArr;
-  
-  }
+}

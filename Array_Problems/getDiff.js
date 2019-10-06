@@ -19,6 +19,5 @@ const getDiff = (arr1, arr2) => {
       }
     }
     return newArr;
-  
 }
   
