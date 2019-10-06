@@ -13,6 +13,7 @@
 10. Flatten and Sort Nested Arrays
 11. Find Pairs
 12. Rotating Arrays
+13. Bubble Sort
 
 ## String Problems
 1. Palindrome Checker
