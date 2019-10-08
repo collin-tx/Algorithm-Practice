@@ -7,15 +7,12 @@
 //e.g. symbolsTest("f++d+") = false, symbolsTest("+f++d+") = true
 
 const symbolsTest = str => { 
-
     str = str.split('');
     let newStr = str.filter(i => 'abcdefghijklmnopqrstuvwxyz'.split('').includes(i));
     let bools = [];
-    
     for(let letter of newStr){
       let index = str.indexOf(letter);
       str[index - 1] === '+' && str[index + 1] === '+' ? bools.push(true) : bools.push(false);
     }
-    return bools.includes(false) ? false : true;
-             
+    return bools.includes(false) ? false : true; 
 }

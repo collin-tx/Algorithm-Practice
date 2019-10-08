@@ -12,7 +12,6 @@ const toMilitaryTime = time => {
     return converted;
 };
 
-
 const toStandardTime = time => {
     let hour = Number(time.slice(0, 2));
     if(hour === 0){
@@ -24,4 +23,3 @@ const toStandardTime = time => {
     }
     return String(hour) + time.slice(2) + 'AM';
 };
-

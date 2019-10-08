@@ -10,4 +10,3 @@ const truncateString = (str, num) => {
     // slice string to num characters, concatenating ellipsis
     return str.slice(0, num) + "...";
 }
-  
