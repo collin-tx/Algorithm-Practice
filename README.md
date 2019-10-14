@@ -25,6 +25,7 @@
 7. Simple Symbol Evaluations
 8. Dynamic Staircase
 9. Time Conversion
+10. Reverse Odds
 
 ## Number Problems
 1. FizzBuzz

@@ -1,6 +1,6 @@
 // Given a string, reverse all the words which have odd length. The even length words are not changed.
 
-function reverseOdd(str) {
+const reverseOdd = str => {
 	let arr = str.split(' ');
 	let newArr = [];
 	for (let word of arr){
