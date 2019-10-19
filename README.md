@@ -26,6 +26,7 @@
 8. Dynamic Staircase
 9. Time Conversion
 10. Reverse Odds
+11. Return Middle Letter(s)
 
 ## Number Problems
 1. FizzBuzz
