@@ -27,6 +27,7 @@
 9. Time Conversion
 10. Reverse Odds
 11. Return Middle Letter(s)
+12. Repeat Shorter String to equal length of Longer String
 
 ## Number Problems
 1. FizzBuzz
