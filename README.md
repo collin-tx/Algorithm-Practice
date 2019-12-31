@@ -29,6 +29,7 @@
 10. Reverse Odds
 11. Return Middle Letter(s)
 12. Repeat Shorter String to equal length of Longer String
+13. Joining Paths
 
 ## Number Problems
 1. FizzBuzz
