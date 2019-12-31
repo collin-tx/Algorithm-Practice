@@ -45,3 +45,4 @@
 11. Fibonacci Sequencing
 12. Currency in Bills
 13. Decimal Converter
+14. Validate Zip
