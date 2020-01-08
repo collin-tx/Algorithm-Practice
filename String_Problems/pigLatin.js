@@ -19,14 +19,14 @@ const toPigLatin = str => {
   }
    if(!startsWithVowel && secondLetterVowel){
     const firstLetter = arr.shift();
-    arr.push(firstLetter, 'a', 'y');
+    arr.push(firstLetter, 'ay');
     return arr.join('');
   }
 
   if (!startsWithVowel && !secondLetterVowel && thirdLetterVowel){
     const firstLetter = arr.shift();
     const secondLetter = arr.shift();
-    arr.push(firstLetter, secondLetter, 'a', 'y');
+    arr.push(firstLetter, secondLetter, 'ay');
     return arr.join('');
   }
 
@@ -34,7 +34,7 @@ const toPigLatin = str => {
     const firstLetter = arr.shift();
     const secondLetter = arr.shift();
     const thirdLetter = arr.shift();
-    arr.push(firstLetter, secondLetter, thirdLetter, 'a', 'y');
+    arr.push(firstLetter, secondLetter, thirdLetter, 'ay');
     return arr.join('');
   }
   if(!startsWithVowel && !secondLetterVowel && !thirdLetterVowel && !fourthLetterVowel){
@@ -42,12 +42,9 @@ const toPigLatin = str => {
     const secondLetter = arr.shift();
     const thirdLetter = arr.shift();
     const fourthLetter = arr.shift();
-    arr.push(firstLetter, secondLetter, thirdLetter, fourthLetter, 'a', 'y');
+    arr.push(firstLetter, secondLetter, thirdLetter, fourthLetter, 'ay');
     return arr.join('');
   }
 
-  return 'Invalid string: please provide an actual word.'
+  return 'Invalid string: please provide an actual English word.'
 }
-
-
-console.log(toPigLatin('rhythm'));
