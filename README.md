@@ -30,6 +30,7 @@
 11. Return Middle Letter(s)
 12. Repeat Shorter String to equal length of Longer String
 13. Joining Paths
+14. Pig Latin
 
 ## Number Problems
 1. FizzBuzz
