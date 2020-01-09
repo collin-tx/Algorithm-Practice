@@ -17,6 +17,7 @@
 12. Rotating Arrays
 13. Bubble Sort
 14. Object to Array
+15. All True
 
 ## String Problems
 1. Palindrome Checker
