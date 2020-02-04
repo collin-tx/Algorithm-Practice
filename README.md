@@ -18,6 +18,7 @@
 13. Bubble Sort
 14. Object to Array
 15. All True
+16. Union Sort
 
 ## String Problems
 1. Palindrome Checker
