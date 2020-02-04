@@ -53,3 +53,4 @@
 14. Validate Zip
 15. Sum the multiples
 16. Sum Odd Fibonacci Numbers
+17. Smallest Common Multiple
