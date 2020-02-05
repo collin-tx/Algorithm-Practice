@@ -19,6 +19,7 @@
 14. Object to Array
 15. All True
 16. Union Sort
+17. Drop It
 
 ## String Problems
 1. Palindrome Checker
