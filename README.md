@@ -37,6 +37,7 @@
 12. Repeat Shorter String to equal length of Longer String
 13. Joining Paths
 14. Pig Latin
+15. Search and Replace
 
 ## Number Problems
 1. FizzBuzz
