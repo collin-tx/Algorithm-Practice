@@ -20,6 +20,7 @@
 15. All True
 16. Union Sort
 17. Drop It
+18. Array Flattener
 
 ## String Problems
 1. Palindrome Checker
