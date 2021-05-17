@@ -12,7 +12,7 @@ function addAll(...args) {
 
 function sumAllPrimes(n) {
   const primes = [];
-  const isPrime = (n) => {
+  const isPrime = n => {
     let sqrt = Math.floor(Math.sqrt(n));
 
     if (n < 2){
@@ -39,15 +39,33 @@ function sumAllPrimes(n) {
 // Remove from the array whatever is in the following arguments. Return the leftover numbers in an array
 // ex. seekAndDestroy([2, 3, 4, 6, 6, 'hello'], 2, 6) == [3, 4, 'hello']
 
-function seekAndDestroy() {}
+function seekAndDestroy(arr, ...destroy) {
+  return arr.filter(x => !destroy.includes(x));
+}
 
 // CHALLENGE 4: SORT BY HEIGHT
-// Some people are standing in a row in a park. There are trees between them which cannot be moved. Your task is to rearrange the people by their heights in a non-descending order without moving the trees.
+// Some people are standing in a row in a park. There are trees between them which cannot be moved. 
+// Your task is to rearrange the people by their heights in a non-descending order without moving the trees.
 // ex.
 // a = [-1, 150, 190, 170, -1, -1, 160, 180]
 // sortByHeight(a) == [-1, 150, 160, 170, -1, -1, 180, 190]
 
-function sortByHeight() {}
+function sortByHeight(h) {
+
+  let a = [];
+  let c = [].concat(h).sort((a,b) => b - a);
+
+  for (let x of h) {
+    if (x < 0) {
+      a.push(x);
+    } else {
+      a.push(Math.max(...c));
+      c.shift();
+    }
+  }
+
+  return a;
+}
 
 // CHALLENGE 5: MISSING LETTERS
 // Find the missing letter in the passed letter range and return it. If all letters are present, return undefined
@@ -56,11 +74,25 @@ function sortByHeight() {}
 // missingLetters("abcdefghjklmno") == "i"
 // missingLetters("abcdefghijklmnopqrstuvwxyz") == undefined
 
-function missingLetters() {}
+function missingLetters(str) {
+  let ab = 'abcdefghijklmnopqrstuvwxyz';
+
+  let start = ab.indexOf(str[0]);
+  let end = ab.indexOf(str[str.length - 1]);
+
+  let comp = ab.slice(start, end).split('');
+
+  return comp.filter(l => !str.includes(l))[0];
+}
 
 // CHALLENGE 6: EVEN & ODD SUMS
 // Take in an array and return an array of the sums of even and odd numbers
 // ex.
 // evenOddSums([50, 60, 60, 45, 71]) == [170, 116]
 
-function evenOddSums() {}
+function evenOddSums(arr) {
+  return [
+    arr.filter(n => n % 2 === 0).reduce((a,b) => a+b),
+    arr.filter(n => n % 2 !== 0).reduce((a,b) => a+b),
+  ];
+}
